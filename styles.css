@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape")
+}
+
+nav {
+    max-width: calc(100%);
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 380px;
+    height: 380px;
+    border-radius: 30px;
+}
+
+.caixa-media {
+    box-sizing: border-box;
+    
+
+}
+
+.caixa-pequena{
+    display:flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    align-items: center;
+   
+}
+
+img {
+    width: 28px;
+    height: 20px;
+}
+
+input {
+    width: 250px;
+    margin-top: 20px;
+    outline: none;
+    border-radius: 23px;
+    height: 40px;
+    background: #757780 ;
+    opacity: 0.5;
+    border: none;
+    margin-left: 50px;
+    color: #ffff;
+    font-size:20px;
+
+
+
+
+}
+
+button {
+    border-radius: 70px;
+    background: #0e0d0d;
+    width: 40px;
+    height: 40px;
+    margin-top: 23px;
+    color: #ffff;
+    margin-left: 10px;
+    cursor: pointer;
+
+
+}
+
+button:hover {
+    background-color: #757780;
+
+}
+
+h2 {
+
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 30px;
+    color: #999090;
+    margin-left: 20px;
+}
+
+.grau {
+    color: #999090;
+    font-size:25px ;
+    font-weight: 200;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 40px;
+
+
+
+}
+
+.descricao {
+    color: #999090;
+    font-size: 15px;
+    font-weight:200;
+    padding-left: 20px;
+    text-transform: capitalize;/*deixa sempre a primeira letra em mascula*/
+
+}
+
+.previsao { 
+    color: #999090;
+    margin-top: 60px;
+    margin-left: 30px;
+    font-size:20px ;
+    font-weight:300 ;
+    font-style: 400;
+
+
+
+}
+
